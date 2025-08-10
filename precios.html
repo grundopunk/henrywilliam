@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grundo Record — Precios</title>
+  <meta name="description" content="" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Inicio">
+      <div class="brand-mark"></div>
+      <span class="brand-name">Grundo Record</span>
+    </a>
+    <nav class="nav-links" aria-label="Principal">
+      <a class="" href="index.html">Inicio</a>
+      <a class="" href="servicios.html">Servicios</a>
+      <a class="" href="proyectos.html">Proyectos</a>
+      <a class="active" href="precios.html">Precios</a>
+      <a class="" href="contacto.html">Contacto</a>
+      <a class="" href="inspiracion.html">Inspiración</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="btn-icon" aria-label="Cambiar tema">🌓</button>
+      <button id="menuToggle" class="btn-icon burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">☰</button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="mobile-menu" hidden>
+    <a href="index.html">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="proyectos.html">Proyectos</a>
+    <a href="precios.html">Precios</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="inspiracion.html">Inspiración</a>
+  </div>
+</header>
+<main class="section">
+  <div class="container">
+    <h1>Precios</h1>
+    <div class="grid pricing">
+      <article class="price">
+        <h3>Starter</h3>
+        <div class="tag">$99</div>
+        <ul><li>1 canción — mezcla</li><li>2 revisiones</li><li>Entrega WAV/MP3</li></ul>
+        <a class="btn" href="contacto.html">Elegir</a>
+      </article>
+      <article class="price featured" aria-label="Plan recomendado">
+        <h3>Pro</h3>
+        <div class="tag">$199</div>
+        <ul><li>Mezcla + Master</li><li>4 revisiones</li><li>Stems + Instrumental</li></ul>
+        <a class="btn" href="contacto.html">Elegir</a>
+      </article>
+      <article class="price">
+        <h3>Full</h3>
+        <div class="tag">$349</div>
+        <ul><li>Producción completa</li><li>Mezcla + Master</li><li>Asesoría 1:1</li></ul>
+        <a class="btn" href="contacto.html">Elegir</a>
+      </article>
+    </div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-text">
+      <p>🎶 “Donde cada nota cuenta y cada canción tiene una historia.”</p>
+      <small>© <span id="year"></span> Grundo Record — Inspirando y produciendo música sin límites.</small>
+    </div>
+    <a href="#home" class="top">↑ Volver arriba</a>
+  </div>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
