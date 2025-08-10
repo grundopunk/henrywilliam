@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grundo Record — Inicio (blanco/gris)</title>
+  <meta name="description" content="Inicio con todas las secciones, sin degradados, botones negros." />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Inicio">
+      <div class="brand-mark"></div>
+      <span class="brand-name">Grundo Record</span>
+    </a>
+    <nav class="nav-links" aria-label="Principal">
+      <a class="active" href="index.html">Inicio</a>
+      <a class="" href="servicios.html">Servicios</a>
+      <a class="" href="proyectos.html">Proyectos</a>
+      <a class="" href="precios.html">Precios</a>
+      <a class="" href="contacto.html">Contacto</a>
+      <a class="" href="inspiracion.html">Inspiración</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="btn-icon" aria-label="Cambiar tema">🌓</button>
+      <button id="menuToggle" class="btn-icon burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">☰</button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="mobile-menu" hidden>
+    <a href="index.html">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="proyectos.html">Proyectos</a>
+    <a href="precios.html">Precios</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="inspiracion.html">Inspiración</a>
+  </div>
+</header>
+<main id="home">
+  <!-- HERO -->
+  <section class="hero gradient-bg">
+    <div class="container hero-inner">
+      <div>
+        <h1>El lugar donde la música <span class="gradient-text">no tiene límites</span>.</h1>
+        <p>Producción, mezcla y masterización híbrida con hardware analógico y plugins de última generación. Sonido competitivo, entrega rápida y trato cercano.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#contacto">Cotizar proyecto</a>
+          <a class="btn" href="#proyectos">Ver trabajos</a>
+        </div>
+        <ul class="hero-bullets">
+          <li>🔊 24 pistas simultáneas</li>
+          <li>🎚️ SSL / Pultec / 1176</li>
+          <li>🚀 Entrega -14 LUFS o a pedido</li>
+        </ul>
+      </div>
+      <div class="hero-media">
+        <div class="media-card">
+          <div class="img_banner">
+            
+              <img src="img/img-15b.png" alt="">
+            
+            
+          </div>
+          <p class="media-caption">Demo visual del estudio / player</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="section">
+    <div class="container">
+      <h2>Servicios</h2>
+      <p class="muted">Soluciones de extremo a extremo para artistas, iglesias y productoras.</p>
+      <div class="grid cards">
+        <article class="card"><div class="ico">🎙️</div><h3>Voces</h3><p>Cadena limpia y cálida para voces solistas y coros.</p></article>
+        <article class="card"><div class="ico">🥁</div><h3>Baterías</h3><p>Multi‑mic, fase alineada y punch controlado.</p></article>
+        <article class="card"><div class="ico">🎸</div><h3>Guitarras</h3><p>Dinámica controlada y presencia musical.</p></article>
+        <article class="card"><div class="ico">🎚️</div><h3>Mezcla</h3><p>Balance, imagen estéreo y color.</p></article>
+        <article class="card"><div class="ico">🎧</div><h3>Mastering</h3><p>Traducción impecable, LUFS consistentes.</p></article>
+        <article class="card"><div class="ico">🎙️</div><h3>Podcast</h3><p>Voces nítidas, reducción de ruido y loudness broadcast.</p></article>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="section alt">
+    <div class="container">
+      <h2>Proyectos</h2>
+      <div class="grid portfolio">
+        <figure class="tile">
+          <img src="img/img-8.jpeg" alt="Punk / Rock">
+          <figcaption>Punk / Rock</figcaption>
+        </figure>
+        <figure class="tile">
+          <img src="img/img-2.jpeg"  alt="Pop‑Indie">
+          <figcaption>Pop‑Indie</figcaption>
+        </figure>
+        <figure class="tile">
+          <img src="img/img-3.jpeg" alt="Worship">
+          <figcaption>Worship</figcaption>
+        </figure>
+        <figure class="tile">
+          <img src="img/img-5.jpeg" alt="Live Session">
+          <figcaption>Live Session</figcaption>
+        </figure>
+        <figure class="tile">
+          <img src="img/img-7.jpeg" alt="Folk / Acústico">
+          <figcaption>Folk / Acústico</figcaption>
+        </figure>
+        <figure class="tile">
+          <img src="img/img-1.jpeg" alt="Podcast">
+          <figcaption>Podcast</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PRECIOS -->
+  <section id="precios" class="section">
+    <div class="container">
+      <h2>Precios</h2>
+      <div class="grid pricing ">
+        <article class="price">
+          <h3>Starter</h3>
+          <div class="tag">$99</div>
+          <ul><li>1 canción — mezcla</li><li>2 revisiones</li><li>Entrega WAV/MP3</li></ul>
+          <a class="btn" href="#contacto">Elegir</a>
+        </article>
+        <article class="price featured" aria-label="Plan recomendado">
+          <h3>Pro</h3>
+          <div class="tag">$199</div>
+          <ul><li>Mezcla + Master</li><li>4 revisiones</li><li>Stems + Instrumental</li></ul>
+          <a class="btn" href="#contacto">Elegir</a>
+        </article>
+        <article class="price">
+          <h3>Full</h3>
+          <div class="tag">$349</div>
+          <ul><li>Producción completa</li><li>Mezcla + Master</li><li>Asesoría 1:1</li></ul>
+          <a class="btn" href="#contacto">Elegir</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section alt">
+    <div class="container">
+      <h2>Contacto</h2>
+      <form class="form" onsubmit="event.preventDefault(); alert('¡Gracias! Te responderemos pronto.');">
+        <div class="form-row">
+          <label>Nombre<input type="text" required placeholder="Tu nombre" /></label>
+          <label>Email<input type="email" required placeholder="tucorreo@dominio.com" /></label>
+        </div>
+        <label>Mensaje<textarea rows="5" placeholder="Cuéntanos tu proyecto"></textarea></label>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-text">
+      <p>🎶 “Donde cada nota cuenta y cada canción tiene una historia.”</p>
+      <small>© <span id="year"></span> Grundo Record — Inspirando y produciendo música sin límites.</small>
+    </div>
+    <a href="#home" class="top">↑ Volver arriba</a>
+  </div>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
